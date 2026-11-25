@@ -1,0 +1,70 @@
+[
+  {
+    "id": "prod-ai-platform",
+    "slug": "modular-ai-orchestration-platform",
+    "name": "Proton Intelligence Core",
+    "category": "AI-Powered Platforms",
+    "status": "In Development",
+    "shortDescription": "A unified AI orchestration and model-routing architecture designed to connect reasoning models, enterprise data, and governance controls.",
+    "overview": "Currently under active engineering, Proton Intelligence Core is being architected as a modular foundation for deploying domain-specific AI assistants, retrieval pipelines, and observability controls with strict data privacy.",
+    "capabilities": [
+      "Unified model routing & evaluation pipelines",
+      "Role-aware context retrieval & audit logging",
+      "Configurable API & webhook integration layer"
+    ],
+    "targetDomain": "AI Infrastructure & Decision Support",
+    "previewType": "platform",
+    "featuredOnHome": true
+  },
+  {
+    "id": "prod-automation-tool",
+    "slug": "intelligent-workflow-automation-suite",
+    "name": "Proton Flow Engine",
+    "category": "Intelligent Automation Tools",
+    "status": "Architecture & Prototyping",
+    "shortDescription": "An adaptive workflow automation toolkit combining deterministic business rules with agentic AI decision steps.",
+    "overview": "In prototyping, Proton Flow Engine focuses on eliminating repetitive operational bottlenecks by pairing structured task pipelines with human-in-the-loop verification checkpoints.",
+    "capabilities": [
+      "Event-driven triggers & API connectors",
+      "Human-in-the-loop approval checkpoints",
+      "Structured error recovery & execution traces"
+    ],
+    "targetDomain": "Operations & Process Automation",
+    "previewType": "automation",
+    "featuredOnHome": true
+  },
+  {
+    "id": "prod-enterprise-software",
+    "slug": "enterprise-engineering-foundation",
+    "name": "Proton Enterprise Workspace",
+    "category": "Enterprise Software Solutions",
+    "status": "In Development",
+    "shortDescription": "Scalable cloud-native enterprise software modules built for secure collaboration, operational visibility, and long-term maintainability.",
+    "overview": "Designed for organizations modernizing legacy workflows, Proton Enterprise Workspace provides clean modular interfaces, granular access control, and extensible APIs.",
+    "capabilities": [
+      "Multi-tenant access control & security boundaries",
+      "Real-time operational dashboards & reporting",
+      "Extensible REST & event-streaming architecture"
+    ],
+    "targetDomain": "Enterprise Digital Systems",
+    "previewType": "enterprise",
+    "featuredOnHome": true
+  },
+  {
+    "id": "prod-research-product",
+    "slug": "research-automation-workbench",
+    "name": "Proton Research LabBench",
+    "category": "Research-Based Technology Products",
+    "status": "R&D Phase",
+    "shortDescription": "An experimental R&D environment exploring autonomous multi-agent literature synthesis, hypothesis structuring, and technical verification.",
+    "overview": "Emerging directly from Proton Solutions' internal research initiatives, LabBench investigates how specialized AI agents can accelerate technical discovery while preserving source traceability.",
+    "capabilities": [
+      "Multi-agent synthesis with source attribution",
+      "Structured technical benchmark tracking",
+      "Reproducible experiment & prompt versioning"
+    ],
+    "targetDomain": "Applied AI & Scientific R&D",
+    "previewType": "research",
+    "featuredOnHome": true
+  }
+]

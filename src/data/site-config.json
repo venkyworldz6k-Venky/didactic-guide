@@ -1,0 +1,36 @@
+{
+  "companyName": "Proton Solutions",
+  "positioning": "Building Intelligent Solutions for a Smarter Future.",
+  "heroHeadline": "Engineering Intelligence. Empowering Tomorrow.",
+  "footerTagline": "Powered by Innovation. Driven by Intelligence.",
+  "officialEmail": "contact@protonsolutions.ai",
+  "careersEmail": "careers@protonsolutions.ai",
+  "headquartersLabel": "Global Remote & Digital Engineering Hub",
+  "responseSla": "We review every inquiry and respond within 1–2 business days.",
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com",
+      "enabled": true
+    },
+    {
+      "platform": "GitHub",
+      "label": "GitHub",
+      "url": "https://github.com",
+      "enabled": true
+    },
+    {
+      "platform": "X",
+      "label": "X (Twitter)",
+      "url": "https://x.com",
+      "enabled": true
+    },
+    {
+      "platform": "YouTube",
+      "label": "YouTube",
+      "url": "https://www.youtube.com",
+      "enabled": false
+    }
+  ]
+}

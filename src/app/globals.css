@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-powder: #B9DDF5;
+  --color-soft-blue: #EAF5FC;
+  --color-orange: #FF4D00;
+  --color-orange-hover: #E04400;
+  --color-navy: #102A43;
+  --color-dark-text: #172B3A;
+  --color-light-grey: #F5F7FA;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #172B3A;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: #102A43;
+}
+
+/* Accessible focus ring in Racing Orange */
+:focus-visible {
+  outline: 2px solid #FF4D00;
+  outline-offset: 2px;
+}
+
+/* Subtle architectural grid background utility */
+.bg-tech-grid {
+  background-image:
+    linear-gradient(to right, rgba(16, 42, 67, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(16, 42, 67, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
